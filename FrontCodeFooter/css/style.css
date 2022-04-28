@@ -44,19 +44,43 @@ body{
 }
 
 .link{
-    display: inline-block;
+    display: flex;
     width: 100%;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .link .word p{
-    margin-top: 50px;
-    margin-left: 200px;
+   margin-left: 50px;
 }
 
-.link .img a {
-    text-align: center;
+.link .img  {
+ margin: 0 auto;
+
 }
 
 .word p{
 color: black;
 }
+.iconn
+{
+display: inline-block;
+margin-right: 50px;
+
+
+
+}
+.icon a{
+    color: black;
+}
+.iconn:hover{
+   
+    position: relative;
+    animation: mymove 10s infinite;
+
+
+}
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
