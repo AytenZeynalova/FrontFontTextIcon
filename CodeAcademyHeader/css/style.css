@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 400px ;
+    
+}
+
+.codefooter{
+
+    display: inline-block;
+    width: 100%;
+}
+.codefooter .address{
+    background-color: rgb(244, 245, 248); 
+    
+
+    height: 90px;
+    margin-top: 300px;
+    
+
+}
+.codefooter .address p{
+   text-align: center;
+   padding-top: 35px;
+   
+   
+}
+.nom{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.address p{
+    color: black;
+    font-weight: 100px;
+}
+
+.link{
+    display: inline-block;
+    width: 100%;
+}
+
+.link .word p{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.link .img a {
+    text-align: center;
+}
+
+.word p{
+color: black;
+}
